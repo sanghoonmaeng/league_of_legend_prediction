@@ -12,7 +12,7 @@ League of Legends ("LoL") is a popular multiplayer online battle arena (MOBA) vi
 This project aims to enhancing the League of Legends experience by developing a predictive model that helps players to anticipate the outcome of ranked matches. By leveraging machine learning techniques and game data analysis, we aim to provide valuable insights to players looking to improve their win rates and climb the ranked ladder.
 
 ## Data Collection
-League of Legends matches is available to developers through the [Riot Games API](https://developer.riotgames.com/docs/lol). After registering for a development API key with rate limits of 20 requests every 1 seconds(s) and 100 requests every 2 minutes(s), I created a python script to collect, extract, clean, and preprocess 10,000 Master's ranked match data for the prediction models. 
+League of Legends matches is available to developers through the [Riot Games API](https://developer.riotgames.com/docs/lol). After registering for a development API key with rate limits of 20 requests every 1 seconds(s) and 100 requests every 2 minutes(s), I created a python script to collect, extract, clean, and preprocess 10,000 Master's ranked match data for the prediction models. Please refer [Kaggle](https://www.kaggle.com/datasets/shmaeng/league-of-legend-match-data) for the raw dataset collected through Riot API.
 
 ## Model Training
 A simple neural network, random forest, and XGBoost models were trained with tuned hyperparameters.
